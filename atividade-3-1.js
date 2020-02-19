@@ -1,8 +1,10 @@
 var user = require('readline-sync')
 var numero = user.question("insira um numero")
 
-while (numero >=1 ){
+var num = 1
+
+while (num <=numero) {
     console.log('BIP BIP')
-    numero = numero - 1
+    num++ 
 }
 
