@@ -1,5 +1,5 @@
 var user = require('readline-sync')
-var ano = user.question("ano de nascimento")
+var ano = user.question("ano de nascimento: ")
 
 var idade = 2020-ano
 
