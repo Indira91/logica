@@ -6,4 +6,4 @@ if ((numero%2)==0) {
     console.log ('Numero PAR')
 } else {
     console.log ('Numero IMPAR')
-}
+}           
