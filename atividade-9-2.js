@@ -1,0 +1,5 @@
+function inteiropos(numero) {
+    return 
+}
+
+
