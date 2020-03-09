@@ -11,9 +11,11 @@ if (num1==num2) {
 } else if (num1==num3) {
     console.log('Numeros repetidos, insira novamente: ')
 }else {
-    console.log('numero certo')
-}
 
+    var todos = [num1, num2, num3]
+    todos.sort();
+    console.log(todos);
+}
 
 
 
