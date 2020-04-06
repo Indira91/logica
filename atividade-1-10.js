@@ -1,9 +1,9 @@
 var user = require('readline-sync')
 
-var numero = user.question('Escreva o numero: ')
+var numero = user.questionInt('Escreva o numero: ')
 
 
-if (100<numero) {
+if (numero>=100 && numero<=200) {
     console.log("Você digitou um numero entre 100 e 200")
 } 
   else {

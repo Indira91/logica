@@ -1,6 +1,6 @@
 var user = require('readline-sync')
 
-var password = user.question(" Digite a Senha: ")
+var password = user.questionInt(" Digite a Senha de 4 digitos: ")
 
 if (password==1234) {
     console.log('ACESSO PERMITIDO')

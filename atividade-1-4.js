@@ -1,6 +1,6 @@
 var user = require("readline-sync")
 
-var cant = user.question('Digite a Quantidade: ')
+var cant = user.questionInt('Digite a Quantidade: ')
 
 var valor1 = cant*(0.25)
 var valor2 = cant*(0.3)
