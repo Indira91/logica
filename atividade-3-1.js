@@ -1,5 +1,5 @@
 var user = require('readline-sync')
-var numero = user.question("insira um numero")
+var numero = user.questionInt("insira um numero: ")
 
 var num = 1
 
