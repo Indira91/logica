@@ -14,3 +14,13 @@ if ((angulo1 == 90 || angulo2 == 90 || angulo3 == 90) && ((angulo1+angulo2+angul
 } else {
     console.log("Valor digitado invalido.")
 }
+
+
+//DESCRICAO DO PROBLEMA
+//Escreva um programa que leia o valor de 3 nagulos de um triangulo
+//e escreva se o triangulo e Acutangulo, Retangulo ou Obtusangulo.
+
+//Sendo que:
+//-TRIANGULO RETANGULO: Possui um angulo reto
+//-TRIANGULO OBTUSANGULO: Possui um angulo obtuso.
+//-TRIANGULO ACUTANGULO: Possui 3 angulos agudos.
